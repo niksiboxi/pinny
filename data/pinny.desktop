@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Notes
+Comment=Easily jot down invaluable thoughts & tasks
+Exec=pinny
+Icon=notes
+Terminal=false
+Type=Application
+Categories=GTK;Utility;TrayIcon;
+OnlyShowIn=XFCE;GNOME;
+Name[en_GB]=Pinny
