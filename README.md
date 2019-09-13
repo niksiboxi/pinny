@@ -18,9 +18,7 @@ Easily jot down invaluable thoughts & tasks
 
 Just type from a command line:
 
-	mkdir build
-	cd build
-	cmake .. -DCMAKE_INSTALL_PREFIX=/usr
-	make
-	sudo make install
-	./src/launchy
+	mkdir build && meson build --prefix=/usr
+    cd build
+    ninja
+	./pinny
