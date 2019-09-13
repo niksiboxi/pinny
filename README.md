@@ -2,6 +2,8 @@
 
 Easily jot down invaluable thoughts & tasks
 
+![Screenshot](data/screenshot.png?raw=true)
+
 ## Installing and Running 
 
 ### Dependencies 
