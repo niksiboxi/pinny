@@ -8,18 +8,20 @@ Easily jot down invaluable thoughts & tasks
 
 ### Dependencies 
 
-	gtksourceview-3.0
-	json-glib-1.0
-	gee-0.8
-	gtk+-3.0
-	libgranite-dev
-	fonts-firacode
-	valac
+	libgtksourceview-3.0-dev 
+	libgee-0.8-dev 
+	libgtk-3-dev 
+	libgranite-dev 
+	fonts-firacode 
+	valac 
+	meson
 
 ### Build and install 
 
 Just type from a command line:
 
+	./deps.sh 
+	enter sudo password
 	mkdir build && meson build --prefix=/usr
     cd build
     ninja
