@@ -5,6 +5,5 @@ Exec=pinny
 Icon=notes
 Terminal=false
 Type=Application
-Categories=GTK;Utility;TrayIcon;
-OnlyShowIn=XFCE;GNOME;
+Categories=GTK;Utility;
 Name[en_GB]=Pinny
