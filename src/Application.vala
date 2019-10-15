@@ -54,6 +54,7 @@ namespace Pinny {
                 PinnyWindow note = (PinnyWindow)get_active_window ();
                 remove_note(note);
                 note.destroy();
+                update_saved_notes();
             });
             existing_notes = new Gee.ArrayList<string>.wrap(notes_settings.enabled_notes);
         }
@@ -96,7 +97,6 @@ namespace Pinny {
             });
 
             note_win.remove_note.connect ((note) => {
-                warning("remove");
                 remove_note (note);
                 note.destroy();
                 update_saved_notes();
