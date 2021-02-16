@@ -114,6 +114,8 @@ namespace Pinny {
             
 
             var scrolled = new Gtk.ScrolledWindow (null, null);
+            scrolled.set_policy(Gtk.PolicyType.NEVER, 
+                                Gtk.PolicyType.AUTOMATIC);  // Set horizontal bar to never present 
             scrolled.set_size_request (450,330);
             scrolled.get_style_context().add_class("mainwindow");
 
